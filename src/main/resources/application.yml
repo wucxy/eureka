@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    ative: dev
+  application:
+    name: eureka
+server:
+  port: 8000
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  instance:
+    perfer-ip-address: true
